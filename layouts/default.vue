@@ -11,7 +11,7 @@
         <v-list-tile
           v-for="(item, i) in items"
           :key="i"
-          :to="item.to"
+          :to="localePath(item.to)"
           router
           exact
         >
@@ -76,12 +76,12 @@ export default {
         {
           icon: "apps",
           title: "Welcome",
-          to: "/"
+          to: "index"
         },
         {
           icon: "bubble_chart",
           title: "Inspire",
-          to: "/inspire"
+          to: "inspire"
         }
       ],
       miniVariant: false,
