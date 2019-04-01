@@ -23,5 +23,6 @@ module.exports = {
   parsePages: true,
   vueI18n: {
     fallbackLocale: "en"
-  }
+  },
+  seo: false
 }

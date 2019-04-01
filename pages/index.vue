@@ -72,7 +72,14 @@ export default {
   },
   head() {
     return {
-      title: "Index"
+      title: this.$t("index.title"),
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.$t("index.description")
+        }
+      ]
     }
   }
 }
