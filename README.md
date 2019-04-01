@@ -8,6 +8,9 @@
 # install dependencies
 $ npm install
 
+# Fix linting
+$ npm run lint -- --fix
+
 # serve with hot reload at localhost:3000
 $ npm run dev
 
